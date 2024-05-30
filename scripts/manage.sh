@@ -11,9 +11,9 @@ cmd_type=""
 arch=$(uname -m)
 version="v1.0.0"
 latestVersion=''
-downloadUrl='https://github.com/ppoonk/XrayR-for-AirGo/releases/download/'
-apiUrl='https://api.github.com/repos/ppoonk/XrayR-for-AirGo/releases/latest'
-manageUrl='https://raw.githubusercontent.com/ppoonk/XrayR-for-AirGo/main/scripts/manage.sh'
+downloadUrl='https://github.com/AirGo-Official/XrayR_For_AirGo/releases/download/'
+apiUrl='https://api.github.com/repos/AirGo-Official/XrayR_For_AirGo/releases/latest'
+manageUrl='https://raw.githubusercontent.com/AirGo-Official/XrayR_For_AirGo/main/scripts/manage.sh'
 bbrUrl='https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh'
 ghproxy='https://mirror.ghproxy.com/'
 
@@ -622,7 +622,7 @@ show_menu() {
     echo -e "
   ${green}XrayR 后端管理脚本，${plain}${red}不适用于docker${plain}
 --- 官方：https://github.com/XrayR-project/XrayR ---
---- 适配：https://github.com/ppoonk/XrayR-for-AirGo ---
+--- 适配：https://github.com/AirGo-Official/XrayR_For_AirGo ---
 --- 系统：${release} 架构：${arch}
   ${green}0.${plain} 修改配置
 ————————————————
