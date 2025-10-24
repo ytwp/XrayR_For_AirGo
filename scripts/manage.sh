@@ -15,7 +15,7 @@ downloadUrl='https://github.com/ytwp/XrayR_For_AirGo/releases/download/'
 apiUrl='https://api.github.com/repos/ytwp/XrayR_For_AirGo/releases/latest'
 manageUrl='https://raw.githubusercontent.com/ytwp/XrayR_For_AirGo/main/scripts/manage.sh'
 bbrUrl='https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh'
-ghproxy='https://mirror.ghproxy.com/'
+ghproxy='https://ghfast.top/'
 
 # check root
 [[ $EUID -ne 0 ]] && echo -e "${red}错误: ${plain} 必须使用root用户运行此脚本！\n" && exit 1
