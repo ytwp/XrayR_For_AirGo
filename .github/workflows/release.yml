@@ -124,7 +124,8 @@ jobs:
 
       - name: Build XrayR
         run: |
-          sed -i 's/oldVersion/${{ steps.get_filename.outputs.VERSION }}/g' ${GITHUB_WORKSPACE}/cmd/version.go
+          # sed -i 's/oldVersion/${{ steps.get_filename.outputs.VERSION }}/g' ${GITHUB_WORKSPACE}/cmd/version.go
+          sed -i 's#oldVersion#${{ steps.get_filename.outputs.VERSION }}#g' ${GITHUB_WORKSPACE}/cmd/version.go
           mkdir -p build_assets
           go build -v -o build_assets/XrayR -trimpath -ldflags "-s -w -buildid="
 
